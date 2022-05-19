@@ -1,0 +1,40 @@
+.container {
+  display: grid;
+  grid: 85px 85px 85px / 85px 85px 85px;
+  gap: 10px;
+  justify-content: center;
+  margin: auto;
+  margin-top: 90px;
+  div {
+    width: 70px;
+    height: 70px;
+    left: 785.92px;
+    top: 356px;
+    background: #ff0266;
+    border: 5.56757px solid #ffffff;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .winner {
+    background: #0336ff;
+    border: 5.56757px solid #ffffff;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cross {
+    left: 70.62%;
+    right: 21.04%;
+    top: 23.48%;
+    bottom: 9.85%;
+    mix-blend-mode: normal;
+    color: #fff;
+    // transform: rotate(45deg);
+  }
+  .circle {
+    color: #fff;
+  }
+}
