@@ -1,8 +1,15 @@
 @import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 body {
   background: #ff0266;
+}
+
+.App h4 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 1rem;
 }
