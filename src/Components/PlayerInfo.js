@@ -1,4 +1,5 @@
 import React from "react";
+import "./Game.scss";
 
 function PlayeInfo(props) {
   const element = props.winner ? (
@@ -6,7 +7,7 @@ function PlayeInfo(props) {
   ) : (
     <h1 style={{ color: "#fff" }}>Next player: {props.turn}</h1>
   );
-  return element;
+  return <>{element}</>;
 }
 
 export default PlayeInfo;

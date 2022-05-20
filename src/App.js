@@ -53,7 +53,11 @@ function App(props) {
           });
         }}
       />
-      <PlayeInfo turn={data.turn} winner={data.winner.name} />
+      <PlayeInfo
+        turn={data.turn}
+        winner={data.winner.name}
+        active={data.winner.indexes}
+      />
     </div>
   );
 }
