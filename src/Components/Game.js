@@ -26,6 +26,7 @@ const Game = (props) => {
       </div>
     );
   });
+  console.log(divisions);
   return <div className="container">{divisions}</div>;
 };
 
