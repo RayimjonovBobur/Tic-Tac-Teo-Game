@@ -7,7 +7,17 @@ function PlayeInfo(props) {
   ) : (
     <h1 style={{ color: "#fff" }}>Next player: {props.turn}</h1>
   );
-  return <>{element}</>;
+  return (
+    <>
+      {element}
+      <button
+        onClick={() => window.location.reload()}
+        className="reflesh-button"
+      >
+        Refresh
+      </button>{" "}
+    </>
+  );
 }
 
 export default PlayeInfo;
